@@ -1,12 +1,12 @@
-# instalação
+# Instalação
 - https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce
 - sudo groupadd docker
 - sudo usermod -aG docker $USER
 
-# comandos 
+# Comandos 
 - docker ps
 
-## postgres
+## Postgres
 - docker run \
     --name postgres \
     -e POSTGRES_USER=felipethomas \
@@ -25,7 +25,7 @@
     -d \
     adminer
 
-## mongodb    
+## Mongodb    
 - docker run \
     --name mongodb \
     -p 27017:27017 \
@@ -45,5 +45,5 @@
     mongo --host localhost -u admin -p Ftsa2016 --authenticationDatabase admin \
     --eval "db.getSiblingDB('heroes').createUser({user: 'felipethomas', pwd: 'Ftsa2016', roles: [{role: 'readWrite', db: 'heroes'}]})"
 
-## outros
+## Outros
 - docker container start postgres
