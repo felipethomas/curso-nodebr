@@ -1,0 +1,12 @@
+{
+  "name": "07-multi-db",
+  "version": "1.0.0",
+  "description": "- https://docs.docker.com/install/linux/docker-ce/ubuntu/#install-docker-ce - sudo groupadd docker - sudo usermod -aG docker $USER",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
